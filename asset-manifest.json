@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/search-filter-react/static/js/main.c995c016.js",
+    "static/js/787.ab65a7ff.chunk.js": "/search-filter-react/static/js/787.ab65a7ff.chunk.js",
+    "index.html": "/search-filter-react/index.html",
+    "main.c995c016.js.map": "/search-filter-react/static/js/main.c995c016.js.map",
+    "787.ab65a7ff.chunk.js.map": "/search-filter-react/static/js/787.ab65a7ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c995c016.js"
+  ]
+}
