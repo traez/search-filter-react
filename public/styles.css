@@ -1,0 +1,72 @@
+/* 
+Project-1 styling 
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: auto;
+}
+body{
+  background-color: hsl(0, 0%, 75%);
+  padding:1rem;
+  font-family: 'Trebuchet MS';
+  display: flex;
+flex-flow: column;
+  justify-content: center; 
+align-items: center;
+  width: 100%;
+  height: auto;
+}
+main{
+  width: 22rem;
+  height: auto;
+background: #2b5870;
+  border: 2px solid hsl(204, 63%, 47%);
+color: #ffffff;
+box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  gap:1rem;
+  display:grid;
+  grid-template: 3rem auto 2rem/auto;
+  grid-template-areas:
+      "one"
+      "two"
+      "three";
+}
+input{
+  grid-area: one;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  text-indent: 0.2rem;
+  font-size: 1rem;
+}
+menu{
+  grid-area: two;
+  font-size: 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  font-size: 1rem;
+}
+li{
+  list-style: none;
+  border: 1px solid hsl(204, 63%, 47%);
+  padding:0.2rem;
+}
+footer { 
+  grid-area: three;
+  display: flex;
+  flex-flow: row;
+  justify-content: center; 
+  align-items: center;
+  font-size: 0.9rem; 
+  background-color: rgb(184, 184, 184);
+  border: 2px solid hsl(204, 63%, 47%);
+  border-radius: 0.5rem;
+  }
